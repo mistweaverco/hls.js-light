@@ -46,7 +46,7 @@ const canPlayNativeHls = videoElement.canPlayType('application/vnd.apple.mpegurl
   videoElement.canPlayType('application/vnd.apple.mpegurl') === 'maybe'
 
 if (HlsJs.isSupported()) {
-  hls = new HlsJs(hlsConfig)
+  hls = new HlsJs()
   hls.loadSource(videoSource)
   hls.attachMedia(videoElement)
 } else if (canPlayNativeHls) {
