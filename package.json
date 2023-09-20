@@ -1,6 +1,6 @@
 {
   "name": "@mistweaverco/hls.js-light",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "license": "MIT",
   "description": "JavaScript HLS client using MediaSourceExtension",
   "homepage": "https://github.com/mistweaverco/hls.js-light",
@@ -12,8 +12,8 @@
   "bugs": {
     "url": "https://github.com/mistweaverco/hls.js-light/issues"
   },
-  "main": "./dist/hls.js",
-  "module": "./dist/hls.mjs",
+  "main": "./dist/hls.light.js",
+  "module": "./dist/hls.light.mjs",
   "types": "./dist/hls.js.d.ts",
   "files": [
     "dist/**/*"
