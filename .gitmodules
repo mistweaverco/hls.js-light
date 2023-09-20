@@ -1,0 +1,3 @@
+[submodule "hls.js"]
+	path = hls.js
+	url = https://github.com/video-dev/hls.js
