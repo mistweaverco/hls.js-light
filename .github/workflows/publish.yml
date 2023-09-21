@@ -11,12 +11,12 @@ jobs:
     runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
-        with:
-          node-version: 16
-          registry-url: 'https://registry.npmjs.org'
       - name: Setup
         run: ./setup.sh
+      - uses: actions/setup-node@v3
+        with:
+          node-version-file: 'hls.js/.node-version'
+          registry-url: 'https://registry.npmjs.org'
       - name: Build
         run: ./build.sh
       - name: Publish
@@ -28,12 +28,12 @@ jobs:
     runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
-        with:
-          node-version: 16
-          registry-url: "https://npm.pkg.github.com"
       - name: Setup
         run: ./setup.sh
+      - uses: actions/setup-node@v3
+        with:
+          node-version-file: 'hls.js/.node-version'
+          registry-url: "https://npm.pkg.github.com"
       - name: Build
         run: ./build.sh
       - name: Publish
