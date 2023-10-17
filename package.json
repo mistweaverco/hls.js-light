@@ -20,5 +20,11 @@
   ],
   "publishConfig": {
     "access": "public"
+  },
+  "scripts": {
+    "docs:serve": "serve docs"
+  },
+  "devDependencies": {
+    "serve": "^14.2.1"
   }
 }
