@@ -2,7 +2,7 @@
 
 cd hls.js || exit 1
 
-npm ci && light=1 rollup --config && npm run build:types
+npm ci && light=1 ./node_modules/.bin/rollup --config && npm run build:types
 
 cd .. || exit 1
 
