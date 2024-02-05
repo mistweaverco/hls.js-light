@@ -1,4 +1,4 @@
-# hls.js light <small>1.0.4</small>
+# hls.js light <small>1.1.0</small>
 
 > This is just the light flavour of hls.js conveniently packaged as a node module and published on the NPM registry.
 
