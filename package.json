@@ -1,9 +1,9 @@
 {
   "name": "@mistweaverco/hls.js-light",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "license": "MIT",
   "description": "JavaScript HLS client using MediaSourceExtension",
-  "homepage": "https://hlsjs-light.mwco.io",
+  "homepage": "https://hlsjs-light.mistweaver.co",
   "authors": "Marco Kellershoff <marco@kellershoff.net>",
   "repository": {
     "type": "git",
